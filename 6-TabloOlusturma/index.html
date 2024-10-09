@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,th,td{
+            border: 1px solid red;
+        }
+        th,
+        td{
+            padding: 15px;
+        }
+        th{
+            text-align: left; 
+        }
+    </style>
+</head>
+<body>
+
+    <table style="width: 100%;">
+        <tr>
+         <th>Ad</th>
+         <th>Soyad</th>
+         <th>Yas</th>
+        </tr>
+        <tr>
+            <td>Berke</td>
+            <td>Korkut</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Cagatay</td>
+            <td>Korkut</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+
+
+    <table style="width: 100%;">
+        <tr>
+         <th>Ad</th>
+         <th>Soyad</th>
+         <th>Yas</th>
+        </tr>
+        <tr>
+            <td>Berke</td>
+            <td colspan="2">Korkut</td>
+            
+        </tr>
+        <tr>
+            <td>Cagatay</td>
+            <td>Korkut</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+    <table style="width: 100%;">
+        <caption>Ogrenci Listesi</caption>
+        <tr>
+         <th>Ad</th>
+         <th>Soyad</th>
+         <th>Yas</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Berke</td> <!--rowspan ile berke 2 sutunluk yer kapladi yoksa cagatayi sildigimiz icin degerler bi sola kayiyodu-->
+            <td>Korkut</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            
+            <td>Korkut</td>
+            <td>30</td>
+        </tr>
+    </table>
+
+</body>
+</html>
